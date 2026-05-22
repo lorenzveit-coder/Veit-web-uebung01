@@ -18,3 +18,75 @@
 
 </body>
 </html>
+```html id="bzy1jh"
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Startseite</title>
+</head>
+
+<body style="background-color: lightblue;">
+
+    <h1>Lorenz Veit – 3AHIT</h1>
+
+    <h2>Persönliche Daten</h2>
+
+    <p>
+        Geburtsdatum: 14.05.2009 <br>
+        Lieblingsfarbe: Dunkelblau
+    </p>
+
+    <h2>Physik</h2>
+
+    <ol>
+        <li>Programmieren</li>
+        <li>Web-Technologie</li>
+        <li>Netzwerktechnik</li>
+    </ol>
+
+    <h2>Fußball</h2>
+
+    <ul id="<script>
+  const hobbys = ["Fußball", "Musik hören", "Lorenz Veit"];
+
+  const liste = document.getElementById("liste-hobbys");
+
+  hobbys.forEach(h => {
+    let li = document.createElement("li");
+    li.textContent = h;
+    liste.appendChild(li);
+  });
+</script>"></ul>
+
+    <h2>Freies Bild</h2>
+
+    <figure>
+        <!-- Hier kommt später das Bild aus Aufgabe 4 hinein -->
+    </figure>
+
+</body>
+</html>
+```
+<figure>
+    <img src="img/bild1.jpg"
+         alt="Berglandschaft bei Sonnenuntergang"
+         title="Freies Bild"
+         width="400">
+
+    <figcaption>
+        Foto von
+        <a href="https://commons.wikimedia.org/wiki/User:Martin_Falbisoner" target="_blank">
+            Martin Falbisoner
+        </a>,
+        Titel:
+        <a href="https://commons.wikimedia.org/wiki/File:Dolomites_-_Lagazuoi.jpg" target="_blank">
+            Dolomites - Lagazuoi
+        </a>,
+        Lizenz:
+        <a href="https://creativecommons.org/licenses/by-sa/3.0/" target="_blank">
+            CC BY-SA 3.0
+        </a>
+    </figcaption>
+</figure>
